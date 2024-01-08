@@ -1,0 +1,30 @@
+---
+import Section from './Section.astro';
+---
+
+<Section
+  title="RIG 600 PRO"
+  subtitle="Siempre Conectados"
+  color="white"
+  price="Por 99.90 €"
+  pt="pt-16"
+  textSize="text-[40px]"
+  img="/testingthird/RIGlogo.webp"
+>
+  <div slot="footer" class="pb-20 md:pb-10">
+    <a
+      class="border-[3px] backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
+      href="#buysection"
+    >
+      COMPRAR AHORA</a
+    >
+  </div>
+
+  <video
+    slot="background"
+    class="object-center object-cover h-full w-full"
+    autoplay
+    muted
+    loop
+    src="/testingthird/mainvid.mp4"></video>
+</Section>
