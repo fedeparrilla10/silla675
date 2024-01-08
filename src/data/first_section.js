@@ -1,24 +1,24 @@
 export const firstSectionData = [
   {
     id: 1,
-    img: '/testingthird/rig600black.png',
+    img: '/silla675/rig600black.png',
     title: '600 PRO HS',
-    icon: '/testingthird/ps5.svg',
+    icon: '/silla675/ps5.svg',
     extraIcons: [
       {
-        icon: '/testingthird/ps4.svg',
+        icon: '/silla675/ps4.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/testingthird/switch.svg',
+        icon: '/silla675/switch.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/testingthird/pc.svg',
+        icon: '/silla675/pc.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/testingthird/mobile.svg',
+        icon: '/silla675/mobile.svg',
         class: 'w-8 h-8',
       },
     ],
@@ -26,16 +26,16 @@ export const firstSectionData = [
   },
   {
     id: 2,
-    img: '/testingthird/rig600black.png',
+    img: '/silla675/rig600black.png',
     title: '600 PRO HX',
-    icon: '/testingthird/xbox.svg',
+    icon: '/silla675/xbox.svg',
     extraIcons: [
       {
-        icon: '/testingthird/pc.svg',
+        icon: '/silla675/pc.svg',
         class: 'w-8 h-8',
       },
       {
-        icon: '/testingthird/mobile.svg',
+        icon: '/silla675/mobile.svg',
         class: 'w-8 h-8',
       },
     ],
