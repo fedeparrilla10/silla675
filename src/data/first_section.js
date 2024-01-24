@@ -1,8 +1,8 @@
 export const firstSectionData = [
   {
     id: 1,
-    img: '/silla675/rig600black.png',
-    title: '600 PRO HS',
+    img: '/silla675/sillacolor.png',
+    title: '',
     icon: '/silla675/ps5.svg',
     extraIcons: [
       {
@@ -26,10 +26,18 @@ export const firstSectionData = [
   },
   {
     id: 2,
-    img: '/silla675/rig600black.png',
-    title: '600 PRO HX',
-    icon: '/silla675/xbox.svg',
+    img: '/silla675/sillalado2.png',
+    title: '',
+    icon: '/silla675/ps5.svg',
     extraIcons: [
+      {
+        icon: '/silla675/ps4.svg',
+        class: 'w-8 h-8',
+      },
+      {
+        icon: '/silla675/switch.svg',
+        class: 'w-8 h-8',
+      },
       {
         icon: '/silla675/pc.svg',
         class: 'w-8 h-8',

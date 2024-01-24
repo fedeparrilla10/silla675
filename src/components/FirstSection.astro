@@ -4,8 +4,8 @@ import { firstSectionData } from '../data/first_section';
 ---
 
 <LongSection
-  title="TOTALMENTE VERSÁTIL"
-  subtitle="PS5 o XBOX + PC, Nintendo Switch & Smartphone"
+  title="CALIDAD Y ESTILO"
+  subtitle="Iluminación RGB"
   color="white"
   pt="pt-5 xl:pt-20"
   textSize="text-[36px] xl:text-[40px]"
@@ -15,26 +15,16 @@ import { firstSectionData } from '../data/first_section';
     class="text-gray-200 flex flex-col items-center justify-center"
   >
     <div
-      class="flex flex-col lg:flex-row justify-around gap-24 xl:gap-24 py-10"
+      class="flex flex-col lg:flex-row justify-around gap-24 xl:gap-24 pt-10 pb-24 xl:pt-2 pb:4"
     >
       {
         firstSectionData.map((product) => (
-          <div class="flex flex-col items-center justify-center gap-6">
-            <img src={product.img} alt={product.title} class="w-48 h-96" />
-            <p class="text-xl">{product.title}</p>
-
-            <div class="flex justify-center items-center flex-col">
-              <img
-                src={product.icon}
-                alt={product.title}
-                class={product.class}
-              />
-              <div class="flex gap-2">
-                {product.extraIcons.map((icon) => (
-                  <img src={icon.icon} alt={product.title} class={icon.class} />
-                ))}
-              </div>
-            </div>
+          <div class="flex flex-col items-center justify-center gap-2">
+            <img
+              src={product.img}
+              alt={product.title}
+              class="w-[20rem] h-1/8"
+            />
           </div>
         ))
       }
@@ -43,16 +33,17 @@ import { firstSectionData } from '../data/first_section';
 
   <div slot="footer" class="pb-10">
     <a
-      class="border-[3px] backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
+      class="border-[3px] backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white
+       hover:text-black transition-colors"
       href="#buysection"
     >
       COMPRAR AHORA</a
     >
   </div>
 
-  <img
+  <div
     slot="background"
-    src="/silla675/bgfirstsection.png"
-    class="object-center object-cover h-full w-full"
-  />
+    class="bg-gradient-to-r from-zinc-950 to-zinc-900 object-center object-cover h-full w-full"
+  >
+  </div>
 </LongSection>
