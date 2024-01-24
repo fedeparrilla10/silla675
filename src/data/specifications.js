@@ -19,6 +19,14 @@ export const firstTable = [
     description: 'Silla gaming',
   },
   {
+    title: 'Altura Máx. Usuario',
+    description: '205cm',
+  },
+  {
+    title: 'Peso Máx. Usuario',
+    description: '120kg',
+  },
+  {
     title: 'Anchura',
     description: '53cm',
   },
