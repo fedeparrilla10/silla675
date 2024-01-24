@@ -1,52 +1,50 @@
 export const specsImgs = [
   {
     id: 1,
-    name: 'APP Propia',
-    subtitle: '(Disponible en App Store & Google Play)',
-    img: '/testingthird/software.svg',
+    name: 'Mando RGB',
+    subtitle: 'Inalámbrico',
+    img: '/silla675/remote.svg',
   },
   {
     id: 2,
-    name: 'Batería 24 / 18H',
-    subtitle: '(En función de la conexión)',
-    img: '/testingthird/battery.svg',
-  },
-  {
-    id: 3,
-    name: 'Inalambricos',
-    subtitle: '(Modo dual disponible)',
-    img: '/testingthird/wireless.svg',
+    name: 'Almohadilla',
+    subtitle: 'Adaptable',
+    img: '/silla675/comfort.svg',
   },
 ];
 
 export const firstTable = [
   {
-    title: 'Acoplamiento al oído',
-    description: 'Circumaural',
+    title: 'Tipo de dispositivo',
+    description: 'Silla gaming',
   },
   {
-    title: 'Color',
-    description: 'Negro',
+    title: 'Anchura',
+    description: '53cm',
+  },
+  {
+    title: 'Altura',
+    description: '132cm',
+  },
+  {
+    title: 'Profundidad',
+    description: '53cm',
+  },
+  {
+    title: 'Color (por fabricante)',
+    description: 'Gris y multicolor',
   },
   {
     title: 'Peso',
-    description: '240 g',
+    description: '23kg',
   },
   {
-    title: 'Fecha de Lanzamiento',
-    description: '14/9/23',
+    title: 'Ruedas',
+    description: '5',
   },
   {
-    title: 'Respuesta en frecuencia',
-    description: '20 Hz–20 kHz',
-  },
-  {
-    title: 'Impedancia',
-    description: '32 ohms',
-  },
-  {
-    title: 'Nivel máximo de presión sonora',
-    description: '111 dBSPL/V',
+    title: 'Contenido',
+    description: 'x1 Silla Gaming',
   },
   {
     title: 'Diámetro de transductores',
