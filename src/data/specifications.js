@@ -31,8 +31,8 @@ export const specsImgs = [
   },
   {
     id: 6,
-    name: 'Cojín Cervical',
-    subtitle: '& Lumbar',
+    name: 'Cojín',
+    subtitle: 'Cervical/Lumbar',
     img: '/silla675/lumbar.svg',
   },
   {
