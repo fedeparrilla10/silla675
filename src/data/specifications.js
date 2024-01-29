@@ -3,12 +3,48 @@ export const specsImgs = [
     id: 1,
     name: 'Mando RGB',
     subtitle: 'Inalámbrico',
-    img: '/silla675/remote.svg',
+    img: '/silla675/rgb.svg',
   },
   {
     id: 2,
     name: 'Almohadilla',
     subtitle: 'Adaptable',
+    img: '/silla675/pillow.svg',
+  },
+  {
+    id: 3,
+    name: 'Material',
+    subtitle: 'Textil',
+    img: '/silla675/textile.svg',
+  },
+  {
+    id: 4,
+    name: 'Brazos',
+    subtitle: '3D',
+    img: '/silla675/armrest.svg',
+  },
+  {
+    id: 5,
+    name: 'Ruedas',
+    subtitle: '6,5MM',
+    img: '/silla675/wheels.svg',
+  },
+  {
+    id: 6,
+    name: 'Cojín Cervical',
+    subtitle: '& Lumbar',
+    img: '/silla675/lumbar.svg',
+  },
+  {
+    id: 7,
+    name: 'Pistón',
+    subtitle: 'Clase 4',
+    img: '/silla675/piston.svg',
+  },
+  {
+    id: 8,
+    name: 'Confort',
+    subtitle: 'Ajustable',
     img: '/silla675/comfort.svg',
   },
 ];
@@ -19,16 +55,8 @@ export const firstTable = [
     description: 'Silla gaming',
   },
   {
-    title: 'Altura Máx. Usuario',
-    description: '205cm',
-  },
-  {
-    title: 'Peso Máx. Usuario',
-    description: '120kg',
-  },
-  {
-    title: 'Anchura',
-    description: '53cm',
+    title: 'Uso recomendado',
+    description: 'Usuarios L-XL',
   },
   {
     title: 'Altura',
@@ -52,45 +80,6 @@ export const firstTable = [
   },
   {
     title: 'Contenido',
-    description: 'x1 Silla Gaming',
-  },
-  {
-    title: 'Diámetro de transductores',
-    description: '40mm',
-  },
-];
-
-export const secondTable = [
-  {
-    title: 'Inalámbrico',
-    description: 'Sí',
-  },
-  {
-    title: 'Compatibilidad HS',
-    description: 'PS5/PS4/Switch/PC/Tablet/Mobile',
-  },
-  {
-    title: 'Compatibilidad HX',
-    description: 'XBOX X-S/XBOX One/PC/Mobile',
-  },
-  {
-    title: 'Frecuencia de respuesta del micrófono',
-    description: '100 Hz - 10 kHz',
-  },
-  {
-    title: 'Micrófono plegable',
-    description: 'Sí',
-  },
-  {
-    title: 'Tipo de conexión',
-    description: 'Dongle USB C & Bluetooth',
-  },
-  {
-    title: 'Control de volumen',
-    description: 'Rueda de volumen en la oreja',
-  },
-  {
-    title: 'Duración de la batería',
-    description: '24h / 18h',
+    description: 'x1 Silla Gaming Pro + Mando RGB',
   },
 ];

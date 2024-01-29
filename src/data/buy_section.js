@@ -34,24 +34,6 @@ export const productData = [
       },
     ],
     logoSrc: '/silla675/ps5.svg',
-    extraIcons: [
-      {
-        icon: '/silla675/ps4.svg',
-        class: 'w-8 h-8',
-      },
-      {
-        icon: '/silla675/switch.svg',
-        class: 'w-8 h-8',
-      },
-      {
-        icon: '/silla675/pc.svg',
-        class: 'w-8 h-8',
-      },
-      {
-        icon: '/silla675/mobile.svg',
-        class: 'w-8 h-8',
-      },
-    ],
     class: 'w-14 h-14',
   },
 ];
