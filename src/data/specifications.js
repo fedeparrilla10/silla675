@@ -1,8 +1,8 @@
 export const specsImgs = [
   {
     id: 1,
-    name: 'Mando RGB',
-    subtitle: 'Inalámbrico',
+    name: 'Mando',
+    subtitle: 'RGB',
     img: '/silla675/rgb.svg',
   },
   {
