@@ -1,7 +1,7 @@
 export const firstSectionData = [
   {
     id: 1,
-    img: '/silla675/111.png',
+    img: '/silla675/nocolor.webp',
     title: '',
     class: 'w-16 h-16',
   },
