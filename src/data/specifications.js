@@ -9,37 +9,37 @@ export const specsImgs = [
     id: 2,
     name: 'Material Textil',
     subtitle: '',
-    img: '/silla675/2.png',
+    img: '/silla675/3.png',
   },
   {
     id: 3,
     name: 'Brazos 3D',
     subtitle: '',
-    img: '/silla675/3.png',
+    img: '/silla675/4.png',
   },
   {
     id: 4,
     name: 'Ruedas 65MM',
     subtitle: '',
-    img: '/silla675/4.png',
+    img: '/silla675/5.png',
   },
   {
     id: 5,
     name: 'Cojín Cervical/Lumbar',
     subtitle: '',
-    img: '/silla675/5.png',
+    img: '/silla675/2.png',
   },
   {
     id: 6,
     name: 'Pistón Clase 4',
     subtitle: '',
-    img: '/silla675/6.png',
+    img: '/silla675/7.png',
   },
   {
     id: 7,
     name: 'Confort Ajustable',
     subtitle: '',
-    img: '/silla675/7.png',
+    img: '/silla675/6.png',
   },
 ];
 
