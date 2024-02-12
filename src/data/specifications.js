@@ -1,50 +1,44 @@
 export const specsImgs = [
   {
     id: 1,
-    name: 'Mando',
-    subtitle: 'RGB',
+    name: 'Mando RGB',
+    subtitle: '',
     img: '/silla675/rgb.svg',
   },
   {
-    id: 2,
-    name: 'Almohadilla',
-    subtitle: 'Adaptable',
-    img: '/silla675/pillow.svg',
-  },
-  {
     id: 3,
-    name: 'Material',
-    subtitle: 'Textil',
+    name: 'Material Textil',
+    subtitle: '',
     img: '/silla675/textile.svg',
   },
   {
     id: 4,
-    name: 'Brazos',
-    subtitle: '3D',
+    name: 'Brazos 3D',
+    subtitle: '',
     img: '/silla675/armrest.svg',
   },
   {
     id: 5,
-    name: 'Ruedas',
-    subtitle: '6,5MM',
+    name: 'Ruedas 65MM',
+    subtitle: '',
     img: '/silla675/wheels.svg',
   },
   {
     id: 6,
-    name: 'Cojín',
-    subtitle: 'Cervical/Lumbar',
+    name: 'Cojín Cervical/Lumbar',
+    subtitle: '',
     img: '/silla675/lumbar.svg',
   },
   {
     id: 7,
-    name: 'Pistón',
-    subtitle: 'Clase 4',
+    name: 'Pistón Clase 4',
+    subtitle: '',
     img: '/silla675/piston.svg',
   },
   {
     id: 8,
-    name: 'Confort',
-    subtitle: 'Ajustable',
+    name: 'Confort Ajustable',
+    subtitle: '',
     img: '/silla675/comfort.svg',
   },
 ];
@@ -52,15 +46,15 @@ export const specsImgs = [
 export const firstTable = [
   {
     title: 'Tipo de dispositivo',
-    description: 'Silla gaming',
+    description: 'Silla Gaming PRO',
   },
   {
     title: 'Uso recomendado',
     description: 'Usuarios L-XL',
   },
   {
-    title: 'Altura',
-    description: '132cm',
+    title: 'Dimensiones',
+    description: '53 x 53 x 123-132 ',
   },
   {
     title: 'Profundidad',
@@ -68,7 +62,7 @@ export const firstTable = [
   },
   {
     title: 'Color (por fabricante)',
-    description: 'Gris y multicolor',
+    description: 'Gris',
   },
   {
     title: 'Peso',
@@ -79,7 +73,19 @@ export const firstTable = [
     description: '5',
   },
   {
+    title: 'Regulador de Inclinación',
+    description: 'Sí',
+  },
+  {
+    title: 'Bloqueo de Inclinación',
+    description: 'Sí',
+  },
+  {
+    title: 'Regulador de Balanceo',
+    description: 'Sí',
+  },
+  {
     title: 'Contenido',
-    description: 'x1 Silla Gaming Pro + Mando RGB',
+    description: 'Silla Gaming PRO y Mando RGB',
   },
 ];

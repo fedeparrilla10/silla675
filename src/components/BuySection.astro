@@ -24,16 +24,9 @@ import { buySectionData, productData } from '../data/buy_section';
             <img
               src={product.imgSrc}
               alt={product.title}
-              class="w-80 h-[26rem]"
+              class="w-80 h-[26rem] object-contain"
             />
             <p class="text-xl">{product.title}</p>
-            <div class="flex flex-row gap-3 md:gap-5 items-center justify-center">
-              {product.buySectionStores.map((store) => (
-                <a href={store.link} target="_blank">
-                  <img src={store.src} alt={store.alt} class="w-16" />
-                </a>
-              ))}
-            </div>
           </div>
         ))
       }
@@ -94,3 +87,27 @@ import { buySectionData, productData } from '../data/buy_section';
     class="object-center object-cover h-full w-full"
   />
 </LongSection>
+
+<!-- <div
+class="flex flex-col lg:flex-row justify-around gap-16 xl:gap-24 py-10"
+>
+{
+  productData.map((product) => (
+    <div class="flex flex-col items-center justify-center bg-gradient-to-r from-zinc-950 to-zinc-900 rounded-2xl p-5 gap-5">
+      <img
+        src={product.imgSrc}
+        alt={product.title}
+        class="w-80 h-[26rem]"
+      />
+      <p class="text-xl">{product.title}</p>
+      <div class="flex flex-row gap-3 md:gap-5 items-center justify-center">
+        {product.buySectionStores.map((store) => (
+          <a href={store.link} target="_blank">
+            <img src={store.src} alt={store.alt} class="w-16" />
+          </a>
+        ))}
+      </div>
+    </div>
+  ))
+}
+</div> -->
