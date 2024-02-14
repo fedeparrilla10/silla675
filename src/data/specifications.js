@@ -57,11 +57,7 @@ export const firstTable = [
     description: '53 x 53 x 123-132 ',
   },
   {
-    title: 'Profundidad',
-    description: '53cm',
-  },
-  {
-    title: 'Color (por fabricante)',
+    title: 'Color',
     description: 'Gris',
   },
   {
